@@ -1,0 +1,163 @@
+/** default html **/
+
+	html {
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	}
+	
+	body {
+	margin: 0;
+	padding: 0;
+	background-color: #fafafa;
+	}
+	
+	.body {
+	background-image: linear-gradient(rgb(248,217,204), rgb(242,226,221));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+
+	html, body {
+	height: 100%;
+	width: auto;
+	}
+	
+	div {
+	display: block;
+	margin: auto;
+	padding: 0;
+	}
+	
+	section {
+	margin: 0;
+	padding: 0;
+	}
+	
+	hr {
+	margin: 0;
+	padding: 0;
+	border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+	}
+	
+	
+/** webfonts **/
+
+
+/** type **/
+
+	h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Spectral', serif;
+	font-weight: 400;
+	font-size: 4em;
+	}
+	
+	h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Spectral', serif;
+	font-weight: 400;
+	font-size: 2.5em;
+	}
+	
+	h3 {	
+	margin: 0;
+	padding: 0;
+	font-family: 'Spectral', serif;
+	font-weight: 400;
+	font-size: 2em;
+	}
+	
+	h4 {	
+	margin: 0 0 0.5em 0;
+	padding: 0;
+	font-family: 'Work Sans', serif;
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 1;
+	}
+	
+	p {
+	margin: 0 0 1em 0;
+	padding: 0;
+	font-family: 'Work Sans', serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1.4;
+	}
+	
+	span {
+	}
+	
+	a.link {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	}
+	
+	a.link:hover {
+	text-decoration: underline;
+	color: #f8a081;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+	}
+	
+	a.link:visited {
+	text-decoration: none;
+	color: #fff;
+	}
+	
+	a.active {
+	text-decoration: underline;
+	color: #f8a081;
+	}
+
+
+/** containers **/
+
+	.fixed-container {
+	width: 960px;
+	height: auto;
+	margin: auto;
+	padding: 0;
+	}
+	
+	#navigation {
+	margin: 2em 0 5em 0;
+	padding: 0;
+	}
+	
+	#navigation a {
+	margin-left: 2em;
+	font-family: 'Space Mono', monospace;
+	font-weight: 400;
+	font-size: 1em;
+	}
+	
+	#navigation a.first-link {
+	margin-left: 0;
+	}
+	
+	.title {
+	margin: 0 0 5em 0;
+	padding: 0;
+	text-align: center;	
+	}
+	
+	.main {
+	display: block;
+	width: 720px;
+	height: auto;
+	margin: auto;
+	padding: 0;
+	}
+
+
+/** assets **/
+
+

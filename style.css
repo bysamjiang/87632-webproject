@@ -149,6 +149,11 @@
 	text-align: center;	
 	}
 	
+	.main-graphic {
+	width: 100%;
+	height: auto;
+	}
+	
 	.main {
 	display: block;
 	width: 720px;
